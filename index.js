@@ -1,14 +1,15 @@
 'use strict'
 
+
 //1. Вивід парних чисел циклом for
 
-let value = prompt();
+let value = Number(prompt("Введіть число"));
 
 if (isNaN (value)) {
     console.log ("Помилка: введіть число");
 } else { 
-    for (let i = value; i >= 1; i--) {
-        if (i != value && i % 2 === 0) {
+    for (let i = 2; i < value; i++) {
+        if (i % 2 === 0) {
             console.log(i);
         }
     }
@@ -16,16 +17,17 @@ if (isNaN (value)) {
 
 //1. Вивід парних чисел циклом while
 
-// let value = prompt();
+// let value = Number(prompt("Введіть число"));
 
 // if (isNaN (value)) {
 //     console.log ("Помилка: введіть число");
 // } else {
-//     while (value >= 2) {
-//         value--; {
-//         if (value % 2 === 0)
-//         console.log(value);
+//     let i = 2;
+//     while (i < value) {
+//         if (i % 2 === 0) {
+//         console.log(i);
 //         }
+//         i++;
 //     }
 // }
 
@@ -46,7 +48,17 @@ if (isNaN (value)) {
     
 // let start = "42559125";
 // let finish = "";
-    
+
+
+// for (let i = 0; i < start.length; i++) {
+//     if (parseInt(start[i]) < 5) {
+//         finish += '0';
+//     } else {
+//         finish += '1';
+//     } 
+// }
+// console.log(finish)
+
 // if ((start.includes('1')||start.includes('2')||start.includes('3')||start.includes('4'))||(start.includes('5')||start.includes('6')||start.includes('7')||start.includes('8')||start.includes('9'))) {
 //     finish = start.replace(/1/g,'0') .replace(/2/g,'0') .replace(/3/g,'0') .replace(/4/g,'0') .replace(/5/g,'1') .replace(/6/g,'1') .replace(/7/g,'1') .replace(/8/g,'1') .replace(/9/g,'1');
 // }
