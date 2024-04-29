@@ -58,8 +58,3 @@ if (isNaN (value)) {
 //     } 
 // }
 // console.log(finish)
-
-// if ((start.includes('1')||start.includes('2')||start.includes('3')||start.includes('4'))||(start.includes('5')||start.includes('6')||start.includes('7')||start.includes('8')||start.includes('9'))) {
-//     finish = start.replace(/1/g,'0') .replace(/2/g,'0') .replace(/3/g,'0') .replace(/4/g,'0') .replace(/5/g,'1') .replace(/6/g,'1') .replace(/7/g,'1') .replace(/8/g,'1') .replace(/9/g,'1');
-// }
-// console.log(finish)
